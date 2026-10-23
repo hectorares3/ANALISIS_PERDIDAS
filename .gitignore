@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/raw/*
+output/
+.pytest_cache/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
