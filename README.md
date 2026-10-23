@@ -8,7 +8,13 @@ La demo utiliza datos reales de **España–Inglaterra, final de la Eurocopa del
 
 ## Ejecutar
 
-Requiere Python 3.10 o superior. Desde esta carpeta:
+En Windows, haz **doble clic en `iniciar_app.cmd`**. Busca Python 3.10 o superior (incluido el runtime de Codex si está disponible), genera el informe y lo abre en el navegador. Si hay un error, deja la ventana abierta para que puedas leerlo. No cambia la configuración de PowerShell.
+
+La versión actual abre la demo España–Inglaterra de 2024. El análisis del Racing de la temporada actual sigue pendiente de una fuente de acciones detalladas o de un módulo de vídeo validado.
+
+El archivo `ejecutar_demo.ps1` es un script de PowerShell: si al abrirlo ves su código, se ha abierto en un editor. Puedes usar `iniciar_app.cmd` o ejecutar el `.ps1` desde una terminal PowerShell.
+
+También puedes arrancar el programa desde una terminal con Python 3.10 o superior:
 
 ```powershell
 python -m racing_analysis demo
